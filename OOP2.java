@@ -30,8 +30,6 @@ class Students1{
 		}
 	}
 	
-	
-	
 	void showDetails() {
 		System.out.println("Your Roll is : "+roll);
 		System.out.println("Your Name is : "+name);
@@ -45,7 +43,6 @@ public class OOP2 {
 	public static void main(String[] args) {
 //		Students s = new Students();
 //		s.showDetails();
-		
 		// TODO Auto-generated method stub
 		
 		Students1 s = new Students1(101,"Vanshika",10);
