@@ -1,0 +1,53 @@
+Java - JDBC - Java Database Connectivity : 
+Database  - MYSQL - Application where we run SQL statements
+SQL - Structured Query Language
+Q1.What is Database ?
+Database is the location where we store tables
+
+After installing MYSQL ,Open “MYSQL command line client”
+
+Q2.How to create Database?
+create database schools;
+
+Q3.How to go inside a Database?
+use schools;
+
+Q4.How to create table ?
+create table 10th_class (roll int primary key,Name text,marks int);
+primary key cannot be duplicate or blank
+
+Q5. View Table Structure (columns and their data type)
+describe 10th_class
+
+SQL is not a case sensitive language
+
+Q6.How to insert data inside table
+insert into 10th_class values
+(101,"Amit",98),
+(102,"Mohan",50),
+(103,"Aman",20),
+(104,"Rahul",0),
+(105,"Priya",30);
+
+
+Q7.How to view data from table?
+
+select * from 10th_class
+
+Where clause : for conditional statement
+
+Aggregate functions in SQL 
+min,max,avg,sum,count
+
+Like Operator : 
+wildcard  - %,_
+
+starts with S - S%
+ends with S - %S
+contains S - %S%
+
+_ - position specific
+Third character of Name must be “i”
+
+
+
